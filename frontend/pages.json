@@ -1,0 +1,254 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^up-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^u-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100
+			}
+		},
+		{
+			"path": "pages/msg/msg",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/login/reset-password",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		},
+		{
+			"path": "pages/content/detail",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/user/settings",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/user/feedback",
+			"style": {
+				"navigationBarTitleText": "反馈",
+				"onReachBottomDistance": 100
+			}
+		},
+		{
+			"path": "pages/user/recharge",
+			"style": {
+				"navigationBarTitleText": "充值"
+			}
+		},
+		{
+			"path": "pages/user/recharge-result",
+			"style": {
+				"navigationBarTitleText": "充值结果"
+			}
+		},
+		{
+			"path": "pages/user/privacy",
+			"style": {
+				"navigationBarTitleText": "隐私政策"
+			}
+		},
+		{
+			"path": "pages/admin/dashboard",
+			"style": {
+				"navigationBarTitleText": "管理后台"
+			}
+		},
+		{
+			"path": "pages/admin/config",
+			"style": {
+				"navigationBarTitleText": "系统配置"
+			}
+		},
+		{
+			"path": "pages/admin/chat_list",
+			"style": {
+				"navigationBarTitleText": "用户消息"
+			}
+		},
+		{
+			"path": "pages/admin/chat_detail",
+			"style": {
+				"navigationBarTitleText": "回复消息"
+			}
+		},
+		{
+			"path": "pages/admin/feedback_list",
+			"style": {
+				"navigationBarTitleText": "用户反馈"
+			}
+		},
+		{
+			"path": "pages/admin/feedback_detail",
+			"style": {
+				"navigationBarTitleText": "反馈详情"
+			}
+		},
+		{
+			"path": "pages/user/bills",
+			"style": {
+				"navigationBarTitleText": "资金账单"
+			}
+		},
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "在线客服",
+				"navigationBarBackgroundColor": "#f2f2f2"
+			}
+		},
+		{
+			"path": "pages/admin/content_publish",
+			"style": {
+				"navigationBarTitleText": "发布内容"
+			}
+		},
+		{
+			"path": "pages/admin/content_list",
+			"style": {
+				"navigationBarTitleText": "内容管理"
+			}
+		},
+		{
+			"path": "pages/admin/order_list",
+			"style": {
+				"navigationBarTitleText": "订单管理"
+			}
+		},
+		{
+			"path": "pages/admin/share_promo",
+			"style": {
+				"navigationBarTitleText": "推广分享"
+			}
+		},
+		{
+			"path": "pages/admin/user_list",
+			"style": {
+				"navigationBarTitleText": "用户管理"
+			}
+		},
+		{
+			"path": "pages/admin/announcement",
+			"style": {
+				"navigationBarTitleText": "公告管理"
+			}
+		},
+		{
+			"path": "pages/admin/sms_config",
+			"style": {
+				"navigationBarTitleText": "短信配置"
+			}
+		},
+		{
+			"path": "pages/content/announcement",
+			"style": {
+				"navigationBarTitleText": "公告详情"
+			}
+		},
+		{
+			"path": "pages/content/announcement_list",
+			"style": {
+				"navigationBarTitleText": "平台公告"
+			}
+		},
+		{
+			"path": "pages/common/service-terms",
+			"style": {
+				"navigationBarTitleText": "服务条款"
+			}
+		},
+		{
+			"path": "pages/user/merchant_apply",
+			"style": {
+				"navigationBarTitleText": "申请商家"
+			}
+		},
+		{
+			"path": "pages/admin/merchant_apply_list",
+			"style": {
+				"navigationBarTitleText": "商家审核"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "料王爆料",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#ff4757",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-active.png"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"text": "订单",
+				"iconPath": "static/tabbar/order.png",
+				"selectedIconPath": "static/tabbar/order-active.png"
+			},
+			{
+				"pagePath": "pages/msg/msg",
+				"text": "消息",
+				"iconPath": "static/tabbar/msg.png",
+				"selectedIconPath": "static/tabbar/msg-active.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/tabbar/mine.png",
+				"selectedIconPath": "static/tabbar/mine-active.png"
+			}
+		]
+	}
+}
